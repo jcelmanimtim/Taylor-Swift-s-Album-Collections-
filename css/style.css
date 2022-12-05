@@ -194,7 +194,7 @@ button:hover{
 	display: block;
 	text-align: center;
 	margin: 25px 0px;
-	color: #f9004d;
+	color: #5f22c2;
 
 }
 h5{
@@ -209,7 +209,7 @@ h5{
 	margin-bottom: 25px;
 }
 .card .button{
-	background-color:#f9004d;
+	background-color:#7d159c;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
