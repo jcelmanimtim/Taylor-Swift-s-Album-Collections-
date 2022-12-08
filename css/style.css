@@ -161,18 +161,19 @@ button:hover{
 }
 
 .service{
-	background: #ec77dd;
+	background-color: #ec77dd;
 	width: 100%;
 	padding: 100px 0px;
 }
 .title h2{
-	color: rgb(233, 151, 233);
+	color: rgb(0, 0, 0);
 	font-size: 75px;
 	width: 1130px;
 	margin: 30px auto;
 	text-align: center;
 }
 .box{
+	background-image: url(../img/bga.jpg);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -182,7 +183,6 @@ button:hover{
 	height: 365px;
 	width: 335px;
 	padding: 20px 35px;
-	background: #faf5fa;
 	border-radius: 20px;
 	margin: 15px;
 	position: relative;
@@ -220,7 +220,7 @@ h5{
 }
 .card .button:hover{
 	background-color: transparent;
-	border: 2px solid #f9004d;
+	border: 2px solid #0e0e0e;
 	cursor: pointer;
 }
 .contact-me{
@@ -239,7 +239,7 @@ h5{
 	margin-bottom: 25px;
 }
 .contact-me .button-two{
-	background-color:#f9004d;
+	background-color:#0a0a0a;
 	color: white;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -250,14 +250,14 @@ h5{
 }
 .contact-me .button-two:hover{
 	background-color: transparent;
-	border: 2px solid #f9004d;
+	border: 2px solid #000000;
 	cursor: pointer;
 }
 footer{
 	position: relative;
 	width: 100%;
 	height: 400px;
-	background: #101010;
+	background: #333232;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -285,7 +285,7 @@ footer p:nth-child(2){
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background:  #f9004d;
+	background:  #000000;
 	border-radius: 50%;
 	margin: 22px 10px;
 	color: white;
@@ -295,10 +295,10 @@ footer p:nth-child(2){
 .social a:hover{
 	transform: scale(1.3);
 	transition: .3s;
-}
+} 
 .end{
 	position: absolute;
-	color:#f9004d;
+	color:rgb(255, 255, 255);
 	bottom: 35px;
 	font-size: 14px; 
 }
