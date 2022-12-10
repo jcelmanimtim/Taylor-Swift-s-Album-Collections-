@@ -1,23 +1,26 @@
 *{
 	padding: 0;
 	margin: 0;
+}
+body{
 	font-family: 'Josefin Sans', sans-serif;
-	box-sizing: border-box;
 }
 html{
 	scroll-behavior: smooth;
 }
 .navbar{
+	background: rgba(66, 64, 64, 0.507);
+	padding: 0;
+	width: 100%;
 	position: fixed;
-	display: flex;
-	justify-content: center;
+	justify-content: right;
 	align-items:flex-end;
 	top: 0;
 }
 nav ul li{
 	list-style-type: none;
 	display: inline-block;
-	padding: 10px  25px;
+	padding: 15px 25px;
 }
 nav ul li a{
 	color: white;
@@ -67,6 +70,7 @@ span{
 .btn:hover{
 	transform: scale(1.2);
 }
+
 .content{
 	position: absolute;
 	top: 50%;
@@ -114,6 +118,10 @@ h4{
 	top: 6px;
 	right: 6px; 
 }
+@media screen and (max-width: 768px) {
+
+	}
+
 
 .about{
 	width: 100%;
@@ -177,15 +185,17 @@ button:hover{
 	padding: 100px 0px;
 }
 .title h2{
-		background-image: url(../img/bgd.jpg);
+		background-image: url(../img/bgf.jpg);
 		text-align: center;
-		font-size: 75px;
+		font-size: 70px;
 		width: auto;
 	  }
 
 
 .box{
 	background-image: url(../img/bga.jpg);
+	background-position: center;
+	background-size: cover;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -236,10 +246,11 @@ h5{
 	cursor: pointer;
 }
 .contact-me{
-	width: 100%;
+	width: 100%;	
 	height: 290px;
 	background-image: url(../img/bgb.jpg);
 	background-position: center;
+	background-size: cover;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -270,7 +281,8 @@ footer{
 	position: relative;
 	width: 100%;
 	height: 400px;
-	background-color: #191919;
+	background-image: url(../img/bgd.jpg);
+	background-size: 50%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
