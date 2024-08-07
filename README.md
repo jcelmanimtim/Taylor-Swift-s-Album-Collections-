@@ -1,6 +1,6 @@
 # Taylor-Swift-s-Album-Collections-
 
-This website is our final project for IT100.
+#ProjectForIT100.
 
 Members:
 
